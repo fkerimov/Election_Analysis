@@ -38,5 +38,5 @@ Diana DeGette won the election with 73.8% of the vote.
 
 ## Summary:
 The script of the analysis is fully applicable to for any election provided that key modifications are made to the script. The following modifications are advised: 
-  1. Modify the path of the file with the data if the file contains similarly formatted csv data. Current script uses the indirect method to locate the specified CSV file in the Resources directory: file_to_load = os.path.join("Resources", "election_results.csv")
+  1. Modify the path of the file with the data if the file contains similarly formatted csv data. Current script uses the indirect method to locate the specified CSV file in the Resources directory: `file_to_load = os.path.join("Resources", "election_results.csv")`
   2. 
